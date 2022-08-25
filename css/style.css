@@ -5,27 +5,28 @@
     width: 380px;
 }
 
-.titulo{
+/* estilos index bootstrap */
+.display-4{
     color: black;
     text-align: center;
     font-size: 50px;
     font-family: 'Bree Serif', serif;
 }
 
-.titulo:hover{
+.display-4:hover{
     transform: scale(1.1);
     transition: 3s;
-
-
 }
 
-.cabecera{
+.display-6{
     color: black;
     text-align: center;
     font-size: 25px;
     font-family: 'Pattaya', sans-serif;
 }
 
+
+/* ................. */
 body{
     background-color: rgba(255, 115, 0, 0.912);
     font-family: Arial, Helvetica, sans-serifS;
@@ -46,11 +47,26 @@ h2{
 
 /*MENU------------------------------------------------*/
 
-/* VER PORQUE NO FUNCIONA STICKY */
-.menu{
+/* MENU navbar bootstrap */
+.navbar .navbar-nav .nav-link:hover{
+    background-color: tomato;
+    color: white;
+    font-size: 25px;
+}
+.navbar .navbar-nav .nav-link{
+    padding: 1em;
+}
+.navbar{
+    font-size: 20px;
+    padding: 0;
+}   
+
+/* Menu CSS-------------- */
+/* .menu{
     position: sticky;
     top: 0;
 }
+
 .menu{
     list-style: none;
     padding: 0;
@@ -63,7 +79,7 @@ h2{
 
 .menu li a{
     text-decoration: none;
-    color: white;
+    
     padding: 20px;
     display: block;
     position: relative;
@@ -79,10 +95,10 @@ h2{
 
 .menu li a:hover{
     background: tomato;
-}
+}  */
+
 
 /*SERVICIOS---------------------------*/
-
 .servicios{
     display: flex;
     flex-direction: row;
@@ -120,20 +136,20 @@ h2{
     margin: 0 50px;
     padding: 10px 20px;
 }
+
+.columna1 ul li:hover{
+    background-color: tomato;
+    transform: scale(1.2);
+}
+.columna2 ul li:hover{
+    background-color: tomato;
+    transform: scale(1.2);
+}
 .boton:hover{
     color: white;
     background-color: darkmagenta;
 }
 
-.item:hover{
-transform: scale(1.2);
-background-color: tomato;
-}
-@media (max-width:480px){
-    .servicios{
-        flex-direction: column;
-    }
-}
 
 /* COTIZAR--------------------------------------------- */
 
@@ -186,6 +202,7 @@ background-color: tomato;
 
 /* TRABAJOS---------------------------------------------------- */
 
+
 .lista ol li{
     border: 2px solid tomato;
     padding: 15px;
@@ -198,32 +215,6 @@ background-color: tomato;
 }
 
 /* GALERIA IMAGENES------------------------------------------------ */
-
- /* .galeryrow .columnimg img{
-    box-sizing: border-box;
-    padding: 0%;
-    margin: 0%;
-}
-
- .galerycolumn{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px;
-    margin: 100px;
-    flex-wrap: wrap; */
-
- /* .img{
-    height: 150px;
-    width: 200px;
-    overflow: hidden;
- }
-
- .img:hover{
-    transform: scale(2);
- } */ */
- 
- 
 
  .elemento{
     width: 100%;
@@ -260,7 +251,7 @@ background-color: tomato;
     box-sizing: border-box;
 }
 
-.container{
+.contenedor{
     position: relative;
     min-height: 100px;
     padding: 50px 100px;
@@ -276,11 +267,14 @@ background-color: tomato;
 }
 
 /* FOOTER------- */
+
 .pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     margin-bottom: 0%;
     margin-left: 50%;
-    
 }
  
 
