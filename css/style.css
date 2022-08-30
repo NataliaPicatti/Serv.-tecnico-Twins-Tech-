@@ -49,8 +49,11 @@ h2{
 
 .navbar .navbar-nav .nav-link:hover{
     background-color: tomato;
+    border: 3px solid tomato;
     color: white;
     font-size: 20px;
+    border: 3px solid darkmagenta;
+    transition: background 1s; 
 }
 .navbar .navbar-nav .nav-link{
     padding: 1em;
@@ -60,7 +63,12 @@ h2{
     padding: 0;
 }   
 
-
+.navbar-brand:not(.nav-link){
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 0.5em;
+}
 /*--SERVICIOS---------------------------*/
 
 .servicios{
