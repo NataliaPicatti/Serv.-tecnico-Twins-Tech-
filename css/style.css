@@ -71,6 +71,12 @@ h2{
 }
 /*--SERVICIOS---------------------------*/
 
+.fw-bolder{
+    font-size: 20px;
+    color: rgb(70, 68, 68);
+            
+}
+
 .servicios{
     display: flex;
     flex-direction: row;
@@ -104,6 +110,7 @@ h2{
 
 .boton{
     background-color: transparent;
+    border-radius: 4px;
     cursor: pointer;
     letter-spacing: 2px;
     position: relative;
@@ -190,12 +197,12 @@ h2{
 
 /* GALERIA IMAGENES------------------------------------------------ */
 
- .elemento{
+ /* .elemento{
     width: 100%;
 }
  .elemento img:hover{
     transform: scale(1.5);
- }
+ } 
 
  .elemento img{
     width: 100%;
@@ -216,7 +223,7 @@ h2{
     .galeria{
         grid-template-columns: repeat(1, 1fr);
     }
-}
+} */ */
 /* CONTACTO---------------------------------------------------- */
 
 .contacto .box .icon .text {
