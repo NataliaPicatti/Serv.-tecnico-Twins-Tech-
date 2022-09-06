@@ -45,36 +45,16 @@ h2{
     font-family: 'Pattaya', sans-serif;
 }
 
-/* MENU navbar bootstrap */
 
-.navbar .navbar-nav .nav-link:hover{
-    background-color: tomato;
-    border: 3px solid tomato;
-    color: white;
-    font-size: 20px;
-    border: 3px solid darkmagenta;
-    transition: background 1s; 
-}
-.navbar .navbar-nav .nav-link{
-    padding: 1em;
-}
-.navbar{
-    font-size: 20px;
-    padding: 0;
-}   
-
-.navbar-brand:not(.nav-link){
-    color: white;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-    padding: 0.5em;
-}
 /*--SERVICIOS---------------------------*/
 
 .fw-bolder{
     font-size: 20px;
     color: rgb(70, 68, 68);
-            
+    display: flex;
+    justify-content: center;
+    padding: auto;
+
 }
 
 .servicios{
@@ -188,42 +168,21 @@ h2{
     border: 2px solid tomato;
     padding: 15px;
     display: flex;
+    justify-content: center;
     background-color: darkmagenta;
     color: white;
     list-style: none;
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 10%;
 }
 
-/* GALERIA IMAGENES------------------------------------------------ */
-
- /* .elemento{
-    width: 100%;
+.lista ol li:hover{
+    background-color: tomato;
+    transform: scale(1.2);
 }
- .elemento img:hover{
-    transform: scale(1.5);
- } 
-
- .elemento img{
-    width: 100%;
-    overflow: hidden;
- }
 
 
- .galeria{
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
-    padding: 10px;
- }
 
-@media (max-width:480px){
-    .galeria{
-        grid-template-columns: repeat(1, 1fr);
-    }
-} */ */
 /* CONTACTO---------------------------------------------------- */
 
 .contacto .box .icon .text {
@@ -241,4 +200,8 @@ h2{
     padding: 15px;
 }
 
+.icon i{
+    display: flex;
+    justify-content: center;
+}
 
