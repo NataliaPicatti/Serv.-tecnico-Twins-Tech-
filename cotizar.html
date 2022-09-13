@@ -60,25 +60,24 @@
       <h1 class="mt-4">Bienvenido al area de cotización, ¿qué inconveniente tiene tu equipo?</h1>
     </div>
     <main class="formulario">
-      <section class="registro">
 
 
-        <form action="">
-          <p class="fw-bold">COMPLETÁ EL FORMULARIO Y RECIBI UN PRESUPUESTO ESTIMADO</p>
-          <label for="brand">Marca</label>
-          <input class="controls" type="text" name="brand" id="">
-          <label for="model">Modelo del equipo</label>
-          <input class="controls" type="text" name="model" id="">
-          <label for="describe">Describa Inconveniente</label>
-          <input class="controls" type="text" name="describe" id="">
-          <label for="email">Correo Electrónico</label>
-          <input class="controls" type="email" name="email" id="">
-          <label for="phone">Telefono</label>
-          <input class="controls" type="tel" name="phone" id="">
-          <input class="boton" type="submit" value="SOLICITAR">
+      <form class="form" action="https://formspree.io/f/mdojaqly" method="POST">
 
-        </form>
-      </section>
+        <strong>
+          <h1 class="h1form">COMPLETA EL FORMULARIO Y RECIBI UN PRESUPESTO ESTIMADO</h1>
+        </strong>
+        <input class="controls" type="text" name="marca" id="" placeholder="MARCA">
+        <input class="controls" type="text" name="model" id="" placeholder=" MODELO DEL EQUIPO ">
+        <input class="controls" type="text" name="describe" id="" placeholder="DESCRIBA INCONVENIENTE">
+        <input class="controls" type="email" name="_replyto" id="" placeholder="EMAIL">
+        <input class="controls" type="tel" name="phone" id="" placeholder="TELEFONO">
+
+        <div class="botonform">
+          <input class="solicitar" type="submit" value="SOLICITAR">
+        </div>
+
+      </form>
     </main>
 
   </main>
@@ -166,7 +165,7 @@
 
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: darkmagenta; color: rgb(134, 128, 128);">
-      © 2022 Copyright:NataliaPicatti
+      Desarrollado por Natalia Picatti - © 2022 Copyright
     </div>
     </div>
     <!-- Copyright -->

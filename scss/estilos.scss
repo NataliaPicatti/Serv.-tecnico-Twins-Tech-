@@ -1,5 +1,39 @@
-body {
+/*--VARIABLES--*/
 
+$color1: tomato;
+
+/*--ESTILOS--*/
+
+.body{
     background-color: #000;
     
     }
+
+
+.navbar {
+    .navbar-nav {
+        .nav-link {
+            &:hover {
+                background-color: $color1;
+                border: 3px solid $color1;
+                color: white;
+                font-size: 20px;
+                border: 3px solid darkmagenta;
+                transition: background 1s;
+            }
+            padding: 1em;
+        }
+    }
+    font-size: 20px;
+    padding: 0;
+}
+.navbar-brand {
+    &:not(.nav-link) {
+        color: white;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;
+        padding: 0.5em;
+    }
+}
+
+

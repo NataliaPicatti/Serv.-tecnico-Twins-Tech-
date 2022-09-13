@@ -45,8 +45,37 @@ h2 {
     font-family: 'Pattaya', sans-serif;
 }
 
+/*--NAVBAR--*/
 
-/*--ESTILOS SECCION SERVICIOS--*/
+.navbar .navbar-nav .nav-link:hover {
+    background-color: tomato;
+    border: 3px solid tomato;
+    color: white;
+    font-size: 20px;
+    border: 3px solid darkmagenta;
+    transition: background 1s;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 1em;
+}
+
+.navbar {
+    font-size: 20px;
+    padding: 0;
+}
+
+.navbar-brand:not(.nav-link) {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    padding: 0.5em;
+
+
+    /*--ESTILOS SECCION SERVICIOS--*/
+
+
+}
 
 .fw-bolder {
     font-size: 20px;
@@ -54,7 +83,6 @@ h2 {
     display: flex;
     justify-content: center;
     padding: auto;
-
 }
 
 .servicios {
@@ -116,31 +144,32 @@ h2 {
 
 /* --ESTILOS SECCION COTIZAR-- */
 
-.formulario .registro .controls .boton {
+
+.formulario .controls .boton {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-.registro {
-    border: none;
-    width: 650px;
+.formulario{
     background: linear-gradient(356deg, rgba(2, 0, 36, 1) 0%, rgba(139, 0, 139, 1) 23%, rgba(255, 115, 0, 1) 100%);
-    padding-right: 50px;
-    padding-left: 30px;
-    padding-top: 5px;
-    margin: auto;
-    margin-top: 40px;
-    border-radius: 4px;
-    color: black;
-    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 50px;
+    
 }
 
-.registro h4 {
-    font-family: 'Bebas Neue', cursive;
-    color: black;
-    font-size: 22px;
-    margin-bottom: 20px;
+.form{
+    padding: 3px;
+    margin: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.h1form{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 68, 68)
 }
 
 .controls {
@@ -153,14 +182,34 @@ h2 {
     border: solid 1px black;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif
+} 
+
+input[type="text"]{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+}
+input[type="email"]{
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+} 
+input[type="tel"] {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
 }
 
-.registro .boton {
-    width: 100%;
-    background-color: rgba(255, 115, 0, 0.912);
-    padding: auto;
+.botonform .solicitar{
     border: none;
-    margin: 15px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(255, 115, 0, 0.912);
+    padding: 15px 20px;
 }
 
 /* --ESTILOS SECCION TRABAJOS-- */
@@ -200,9 +249,39 @@ h2 {
     align-items: center;
     justify-content: center;
     padding: 15px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .icon i {
+    display: flex;
+    justify-content: center;
+}
+
+.telefono {
+    color: black;
+    text-decoration: none;
+}
+
+.telefono :hover {
+
+    color: darkmagenta;
+    transition: 300ms ease;
+
+}
+
+.email {
+    color: black;
+    text-decoration: none;
+}
+
+.email:hover {
+    color: darkmagenta;
+    transition: 200ms;
+}
+
+.maps {
     display: flex;
     justify-content: center;
 }
