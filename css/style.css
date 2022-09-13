@@ -1,44 +1,44 @@
-/*logo INDEX*/
+/*--LOGO INDEX--*/
 
-.logotipo{
+.logotipo {
     display: flex;
     width: 380px;
 }
 
-/* ................. */
+/* --ESTILOS--*/
 
-body{
+body {
     background-color: rgba(255, 115, 0, 0.912);
     font-family: Arial, Helvetica, sans-serifS;
 }
 
-h1{
+h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     margin-left: 100px;
 }
 
-h2{
+h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 50px;
     text-align: center;
     color: black;
 }
 
-/* estilos bootstrap index  */
-.display-4{
+/*--ESTILOS BOOTSTRAP INDEX--*/
+.display-4 {
     color: black;
     text-align: center;
     font-size: 50px;
     font-family: 'Bree Serif', serif;
 }
 
-.display-4:hover{
+.display-4:hover {
     transform: scale(1.1);
     transition: 3s;
 }
 
-.display-6{
+.display-6 {
     color: black;
     text-align: center;
     font-size: 25px;
@@ -46,9 +46,9 @@ h2{
 }
 
 
-/*--SERVICIOS---------------------------*/
+/*--ESTILOS SECCION SERVICIOS--*/
 
-.fw-bolder{
+.fw-bolder {
     font-size: 20px;
     color: rgb(70, 68, 68);
     display: flex;
@@ -57,13 +57,13 @@ h2{
 
 }
 
-.servicios{
+.servicios {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-.columna1 ul li{
+.columna1 ul li {
     border: 2px solid tomato;
     padding: 15px;
     margin: 3px;
@@ -73,7 +73,7 @@ h2{
     list-style: none;
 }
 
-.columna2 ul li{
+.columna2 ul li {
     border: 2px solid tomato;
     padding: 15px;
     margin: 3px;
@@ -83,12 +83,12 @@ h2{
     list-style: none;
 }
 
-.botones{
+.botones {
     display: flex;
     justify-content: center;
 }
 
-.boton{
+.boton {
     background-color: transparent;
     border-radius: 4px;
     cursor: pointer;
@@ -98,52 +98,54 @@ h2{
     padding: 10px 20px;
 }
 
-.columna1 ul li:hover{
+.columna1 ul li:hover {
     background-color: tomato;
     transform: scale(1.2);
 }
-.columna2 ul li:hover{
+
+.columna2 ul li:hover {
     background-color: tomato;
     transform: scale(1.2);
 }
-.boton:hover{
+
+.boton:hover {
     color: white;
     background-color: darkmagenta;
 }
 
 
-/* --COTIZAR--------------------------------------------- */
+/* --ESTILOS SECCION COTIZAR-- */
 
-.formulario .registro .controls .boton{
+.formulario .registro .controls .boton {
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
 
-.registro{
+.registro {
     border: none;
     width: 650px;
-    background: linear-gradient(356deg, rgba(2,0,36,1) 0%, rgba(139,0,139,1) 23%, rgba(255,115,0,1) 100%);
+    background: linear-gradient(356deg, rgba(2, 0, 36, 1) 0%, rgba(139, 0, 139, 1) 23%, rgba(255, 115, 0, 1) 100%);
     padding-right: 50px;
     padding-left: 30px;
     padding-top: 5px;
     margin: auto;
     margin-top: 40px;
     border-radius: 4px;
-    color:black;
+    color: black;
     font-size: 20px;
 }
 
-.registro h4{
+.registro h4 {
     font-family: 'Bebas Neue', cursive;
     color: black;
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-.controls{
+.controls {
     width: 100%;
-    background-color: rgba(2,0,36,1) 0%;
+    background-color: rgba(2, 0, 36, 1) 0%;
     opacity: 0.5;
     padding: 10px;
     border-radius: 4px;
@@ -153,18 +155,18 @@ h2{
     font-family: Arial, Helvetica, sans-serif
 }
 
-.registro .boton{
+.registro .boton {
     width: 100%;
     background-color: rgba(255, 115, 0, 0.912);
-    padding:auto;
+    padding: auto;
     border: none;
     margin: 15px;
 }
 
-/* --TRABAJOS---------------------------------------------------- */
+/* --ESTILOS SECCION TRABAJOS-- */
 
 
-.lista ol li{
+.lista ol li {
     border: 2px solid tomato;
     padding: 15px;
     display: flex;
@@ -176,14 +178,14 @@ h2{
     margin-left: 10%;
 }
 
-.lista ol li:hover{
+.lista ol li:hover {
     background-color: tomato;
     transform: scale(1.2);
 }
 
 
 
-/* CONTACTO---------------------------------------------------- */
+/*-- ESTILOS SECCION CONTACTOS--*/
 
 .contacto .box .icon .text {
     margin: 0%;
@@ -192,7 +194,7 @@ h2{
 }
 
 
-.box div{
+.box div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,8 +202,7 @@ h2{
     padding: 15px;
 }
 
-.icon i{
+.icon i {
     display: flex;
     justify-content: center;
 }
-
