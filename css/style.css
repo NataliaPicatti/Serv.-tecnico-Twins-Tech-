@@ -151,21 +151,22 @@ h2 {
     box-sizing: border-box;
 }
 
-.formulario{
+.formulario {
     background: linear-gradient(356deg, rgba(2, 0, 36, 1) 0%, rgba(139, 0, 139, 1) 23%, rgba(255, 115, 0, 1) 100%);
     width: 100%;
     padding: 15px;
     margin-top: 50px;
-    
+
 }
 
-.form{
+.form {
     padding: 3px;
     margin: auto;
     margin-left: 40px;
     margin-right: 40px;
 }
-.h1form{
+
+.h1form {
     text-align: center;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -182,20 +183,22 @@ h2 {
     border: solid 1px black;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif
-} 
+}
 
-input[type="text"]{
+input[type="text"] {
     border: none;
     font-size: 20px;
     padding: 10px;
     width: 100%;
 }
-input[type="email"]{
+
+input[type="email"] {
     border: none;
     font-size: 20px;
     padding: 10px;
     width: 100%;
-} 
+}
+
 input[type="tel"] {
     border: none;
     font-size: 20px;
@@ -203,7 +206,7 @@ input[type="tel"] {
     width: 100%;
 }
 
-.botonform .solicitar{
+.botonform .solicitar {
     border: none;
     width: 100%;
     color: white;
