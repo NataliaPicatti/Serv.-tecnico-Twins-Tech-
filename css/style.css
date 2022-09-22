@@ -14,13 +14,13 @@ body {
 
 h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 40px;
     margin-left: 100px;
 }
 
 h2 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     color: black;
 }
@@ -30,7 +30,6 @@ h2 {
     color: black;
     font-size: 40px;
     font-family: 'Bree Serif', serif;
-    text-transform: uppercase;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -47,7 +46,7 @@ h2 {
     justify-content: center;
     text-align: center;
     font-size: 25px;
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Crete Round', serif;
 }
 
 /*--NAVBAR--*/
