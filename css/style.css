@@ -25,7 +25,7 @@ h2 {
     color: black;
 }
 
-/*--ESTILOS BOOTSTRAP INDEX--*/
+/*--ESTILOS INDEX--*/
 .title {
     color: black;
     font-size: 40px;
@@ -74,11 +74,9 @@ h2 {
     font-family: 'Bebas Neue', cursive;
     font-size: 25px;
     padding: 0.5em;
-
-
-    /*--ESTILOS SECCION SERVICIOS--*/
-
 }
+
+/*--SERVICIOS--*/
 
 .fw-bolder {
     font-size: 20px;
@@ -144,9 +142,7 @@ h2 {
     background-color: darkmagenta;
 }
 
-
 /* --ESTILOS SECCION COTIZAR-- */
-
 
 .formulario .controls .boton {
     padding: 0%;
@@ -159,7 +155,6 @@ h2 {
     width: 100%;
     padding: 15px;
     margin-top: 50px;
-
 }
 
 .form {
@@ -220,7 +215,6 @@ input[type="tel"] {
 
 /* --ESTILOS SECCION TRABAJOS-- */
 
-
 .lista ol li {
     border: 2px solid tomato;
     padding: 15px;
@@ -233,13 +227,10 @@ input[type="tel"] {
     margin-left: 10%;
 }
 
-
 .lista ol li:hover {
     background-color: tomato;
     transform: scale(1.2);
 }
-
-
 
 /*-- ESTILOS SECCION CONTACTOS--*/
 
@@ -248,7 +239,6 @@ input[type="tel"] {
     padding: 0%;
     box-sizing: border-box;
 }
-
 
 .box div {
     display: flex;
@@ -272,10 +262,8 @@ input[type="tel"] {
 }
 
 .telefono :hover {
-
     color: darkmagenta;
     transition: 300ms ease;
-
 }
 
 .email {
@@ -291,4 +279,38 @@ input[type="tel"] {
 .maps {
     display: flex;
     justify-content: center;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 30s linear infinite;
+    -webkit-animation: scroll 30s linear infinite;
+    width: calc(300px * 18);
+}
+
+.slider .slide {
+    width: 300px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-200px * 18));
+        transform: translateX(calc(-200px * 18));
+    }
 }

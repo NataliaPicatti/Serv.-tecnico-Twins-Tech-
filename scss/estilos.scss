@@ -36,4 +36,68 @@ $color1: tomato;
     }
 }
 
+.fw-bolder {
+	font-size: 20px;
+	color: rgb(70, 68, 68);
+	display: flex;
+	justify-content: center;
+	padding: auto;
+}
+.servicios {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.columna1 {
+	ul {
+		li {
+			border: 2px solid tomato;
+			padding: 15px;
+			margin: 3px;
+			display: flex;
+			background-color: darkmagenta;
+			color: white;
+			list-style: none;
+			&:hover {
+				background-color: tomato;
+				transform: scale(1.2);
+			}
+		}
+	}
+}
+.columna2 {
+	ul {
+		li {
+			border: 2px solid tomato;
+			padding: 15px;
+			margin: 3px;
+			display: flex;
+			background-color: darkmagenta;
+			color: white;
+			list-style: none;
+			&:hover {
+				background-color: tomato;
+				transform: scale(1.2);
+			}
+		}
+	}
+}
+.botones {
+	display: flex;
+	justify-content: center;
+}
+.boton {
+	background-color: transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	position: relative;
+	margin: 0 50px;
+	padding: 10px 20px;
+	&:hover {
+		color: white;
+		background-color: darkmagenta;
+	}
+}
+
 
